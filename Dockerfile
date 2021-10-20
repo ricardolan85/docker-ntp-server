@@ -8,4 +8,4 @@ RUN apt-get update \
 
 EXPOSE 123/udp
 
-ENTRYPOINT ["/usr/sbin/ntpd","-n"]
+ENTRYPOINT ["/usr/sbin/ntpd","-n","-d"]
